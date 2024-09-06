@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.li-item {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .li-item {
+    font-size: 24px;
+  }
+}
